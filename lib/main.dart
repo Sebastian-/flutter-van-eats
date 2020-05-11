@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:vaneats/loading_screen.dart';
 
 void main() => runApp(MyApp());
 
@@ -9,7 +10,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData.dark(),
       home: Center(
-        child: Text("Yelp Businesses"),
+        child: LoadingScreen(),
       ),
     );
   }
